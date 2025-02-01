@@ -1,0 +1,34 @@
+timestamp,event_type,user,status,ip_address,location,device_type
+2025-01-31 10:00:00,login_attempt,alice,success,192.168.1.10,New York,Windows
+2025-01-31 10:05:00,login_attempt,bob,failed,192.168.1.11,San Francisco,MacOS
+2025-01-31 10:10:00,file_access,alice,success,192.168.1.12,Chicago,Windows
+2025-01-31 10:15:00,file_access,charlie,failed,192.168.1.13,Los Angeles,Linux
+2025-01-31 10:20:00,logout,alice,success,192.168.1.10,New York,Windows
+2025-01-31 10:25:00,login_attempt,david,failed,192.168.1.14,Houston,Android
+2025-01-31 10:30:00,file_access,bob,success,192.168.1.15,Seattle,MacOS
+2025-01-31 10:35:00,logout,bob,success,192.168.1.11,San Francisco,MacOS
+2025-01-31 10:40:00,login_attempt,charlie,failed,192.168.1.16,Denver,iOS
+2025-01-31 10:45:00,file_access,david,success,192.168.1.17,Miami,Windows
+2025-01-31 10:00:00,login_attempt,alice,success,192.168.1.10,New York,Windows
+2025-01-31 10:05:00,login_attempt,bob,failed,192.168.1.11,San Francisco,MacOS
+2025-01-31 10:10:00,file_access,alice,success,192.168.1.12,Chicago,Windows
+2025-01-31 10:15:00,file_access,charlie,failed,192.168.1.13,Los Angeles,Linux
+2025-01-31 10:20:00,logout,alice,success,192.168.1.10,New York,Windows
+2025-01-31 10:25:00,login_attempt,david,failed,192.168.1.14,Houston,Android
+2025-01-31 10:30:00,file_access,bob,success,192.168.1.15,Seattle,MacOS
+2025-01-31 10:35:00,logout,bob,success,192.168.1.11,San Francisco,MacOS
+2025-01-31 10:40:00,login_attempt,charlie,failed,192.168.1.16,Denver,iOS
+2025-01-31 10:45:00,file_access,david,success,192.168.1.17,Miami,Windows
+2025-01-31 10:50:00,login_attempt,emma,success,192.168.1.18,Boston,Windows
+2025-01-31 10:55:00,file_access,frank,failed,192.168.1.19,Atlanta,MacOS
+2025-01-31 11:00:00,logout,emma,success,192.168.1.18,Boston,Windows
+2025-01-31 11:05:00,login_attempt,george,failed,192.168.1.20,Dallas,Linux
+2025-01-31 11:10:00,file_access,harry,success,192.168.1.21,Phoenix,Android
+2025-01-31 11:15:00,logout,harry,success,192.168.1.21,Phoenix,Android
+2025-01-31 11:20:00,login_attempt,isabel,failed,192.168.1.22,Detroit,iOS
+2025-01-31 11:25:00,file_access,john,success,192.168.1.23,San Diego,Windows
+2025-01-31 11:30:00,logout,john,success,192.168.1.23,San Diego,Windows
+2025-01-31 11:35:00,login_attempt,kevin,failed,192.168.1.24,Portland,MacOS
+2025-01-31 11:40:00,file_access,lucy,success,192.168.1.25,Las Vegas,Linux
+2025-01-31 11:45:00,logout,lucy,success,192.168.1.25,Las Vegas,Linux
+
