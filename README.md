@@ -62,16 +62,13 @@ index="security_index" sourcetype=csv event_type=login_attempt status=failed
 - Run the **Failed Logins Alert** query.
 - Click **Save As > Alert** and configure notifications.
 
-## 📸 Screenshots
-![Dashboard Preview](screenshots/dashboard.png)
+
 
 ## 🤝 Contributing
 Feel free to **fork this repository**, open an **issue**, or submit a **pull request** to improve the project!
 
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ### ✨ Follow Me for More Projects
-🔗 [LinkedIn](https://linkedin.com/) | 🔗 [GitHub](https://github.com/) | 🔗 [Medium](https://medium.com/)
+🔗 [LinkedIn]([https://linkedin.com/](https://www.linkedin.com/in/kritabh-k-982b43122?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app )) | 🔗 [GitHub]([https://github.com/](https://github.com/Kritabh13/Splunk-Security-Dashboard)) 
