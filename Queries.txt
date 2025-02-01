@@ -1,0 +1,30 @@
+ 
+queries
+
+
+1.Query for Unauthorized Access (Failed Login Attempts): 
+
+index="index_new" sourcetype=csv event_type="login_attempt" 
+status="failed"| where count > 3 
+| stats count by user, ip_address, location
+
+2.Query for Suspicious Activity (Malware Detection):
+
+index="index_new" sourcetype=csv event_type="login_attempt" status="failed" 
+| stats count by user, ip_address, location, device_type 
+| where count > 3 AND (location!="New York" AND device_type!="Windows")
+
+
+3. Query for Excessive Failed Logins (Brute-Force Detection):
+
+index="index_new" sourcetype=csv event_type="login_attempt" status="failed" 
+| stats count by user, ip_address 
+| where count > 5
+
+
+4.Query for Security Event Summary (Periodic Report):
+
+index="index_new" sourcetype=csv 
+| stats count as "Number of Threats Detected" 
+| append [ search index="index_new" sourcetype=csv | stats count by event_type ] 
+| append [ search index="index_new" sourcetype=csv | stats count by response_action ]
