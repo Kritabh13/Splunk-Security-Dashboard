@@ -71,4 +71,4 @@ Feel free to **fork this repository**, open an **issue**, or submit a **pull req
 ---
 
 ### ✨ Follow Me for More Projects
-🔗 [LinkedIn]([https://linkedin.com/](https://www.linkedin.com/in/kritabh-k-982b43122?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app )) | 🔗 [GitHub]([https://github.com/](https://github.com/Kritabh13/Splunk-Security-Dashboard)) 
+🔗 [LinkedIn]([https://linkedin.com/](https://www.linkedin.com/in/kritabh-k-982b43122?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app] ) | 🔗 [GitHub]((https://github.com/Kritabh13/Splunk-Security-Dashboard)) 
