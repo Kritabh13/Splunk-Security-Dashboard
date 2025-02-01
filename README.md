@@ -20,7 +20,7 @@ This project is a **Splunk Security Monitoring Dashboard** designed to track and
 │── 📄 README.md (This file)
 │── 📄 sample_data.csv (Sample log file for testing)
 │── 📄 queries.txt (Splunk search queries used in the dashboard)
-│── 📄 dashboard.pdf (Exported Splunk dashboard configuration)
+│── 📄security_monitoring_dashboard-2025-02-01.pdf (Exported Splunk dashboard configuration)
 │── 📁 screenshots (Contains images of dashboard visualizations)
 ```
 
